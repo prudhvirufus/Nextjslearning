@@ -2,7 +2,7 @@
 import type { Metadata } from 'next'
 import getAllUsers from "@/lib/getAllUsers"
 import Link from 'next/link'
-
+import getUserPosts from "@/lib/getUserPost"
 export const metadata: Metadata = {
   title: 'Users',
 }
